@@ -68,15 +68,21 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
    python server.py
 5. Open app.html in your browser → enter details → get predictions
 
+---
+
 ## 📊 Model Training
 - Preprocessing: Removed outliers, handled missing values, averaged total_sqft ranges
 - Feature Engineering: One-hot encoding for 241 Bangalore locations
 - Model: Linear Regression (or XGBoost with 87.41% accuracy in testing)
 - Saved: As banglore_home_prices_model.pickle
 
+---
+
 ## 🖼 Screenshots
 
 <img width="1920" height="1080" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/4d69a1ad-2b7f-46fd-8796-fc61c51ec8d0" />
+
+---
 
 ## 🔮 Future Improvements
 - Integrate advanced ML models (e.g., Random Forest, XGBoost, CatBoost)
@@ -84,8 +90,11 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 - Expand dataset to include other Indian cities
 - Enhance UI/UX with visualizations
 
+---
+
 ## 👨‍💻 Author
 Prins Ambaliya
 
 GitHub: PrinsAmbaliya
+
 LinkedIn: https://www.linkedin.com/in/prins-ambaliya-bb7546367 

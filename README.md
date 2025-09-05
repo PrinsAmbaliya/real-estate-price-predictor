@@ -93,8 +93,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 ---
 
 ## 👨‍💻 Author
-**Prins Ambaliya
-**
+Prins Ambaliya
 GitHub: PrinsAmbaliya
 
 LinkedIn: https://www.linkedin.com/in/prins-ambaliya-bb7546367 

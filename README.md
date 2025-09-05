@@ -15,8 +15,6 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ## 🗂 Project Structure
 
-## 🗂 Project Structure
-
 ```text
 ├── artifacts/
 │   ├── banglore_home_prices_model.pickle   # Trained ML model

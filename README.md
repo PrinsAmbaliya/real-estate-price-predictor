@@ -15,6 +15,8 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ## 🗂 Project Structure
 
+## 🗂 Project Structure
+
 ```text
 ├── artifacts/
 │   ├── banglore_home_prices_model.pickle   # Trained ML model
@@ -34,9 +36,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 ├── util.py                                 # Helper functions
 ├── requirements.txt                        # Dependencies
 └── README.md                               # Project Documentation
-
-
-
+```   
 ---
 
 ## ⚙️ How It Works
@@ -57,3 +57,37 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
    ```bash
    git clone https://github.com/YOUR_USERNAME/bangalore-house-price-prediction.git
    cd bangalore-house-price-prediction
+2. Create a virtual environment & activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate    # Linux/Mac
+   venv\Scripts\activate       # Windows
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Run the Flask server:
+   ```bash
+   python server.py
+5. Open app.html in your browser → enter details → get predictions
+
+## 📊 Model Training
+- Preprocessing: Removed outliers, handled missing values, averaged total_sqft ranges
+- Feature Engineering: One-hot encoding for 241 Bangalore locations
+- Model: Linear Regression (or XGBoost with 87.41% accuracy in testing)
+- Saved: As banglore_home_prices_model.pickle
+
+## 🖼 Screenshots
+
+<img width="1920" height="1080" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/4d69a1ad-2b7f-46fd-8796-fc61c51ec8d0" />
+
+## 🔮 Future Improvements
+- Integrate advanced ML models (e.g., Random Forest, XGBoost, CatBoost)
+- Deploy live on Heroku/Render
+- Expand dataset to include other Indian cities
+- Enhance UI/UX with visualizations
+
+## 👨‍💻 Author
+Prins Ambaliya
+
+GitHub: PrinsAmbaliya
+LinkedIn: https://www.linkedin.com/in/prins-ambaliya-bb7546367 

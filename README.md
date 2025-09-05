@@ -15,42 +15,25 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ## 🗂 Project Structure
 
+```text
 ├── artifacts/
-│ ├── banglore_home_prices_model.pickle # Trained ML model
-│ ├── columns.json # Model features
+│   ├── banglore_home_prices_model.pickle   # Trained ML model
+│   ├── columns.json                        # Model features
 │
 ├── data/
-│ ├── bengaluru_house_prices.csv # Raw dataset
-│ ├── bhp.csv # Cleaned dataset
+│   ├── bengaluru_house_prices.csv          # Raw dataset
+│   ├── bhp.csv                             # Cleaned dataset
 │
 ├── notebooks/
-│ └── banglore_home_prices_final.ipynb # Jupyter notebook for EDA & training
+│   └── banglore_home_prices_final.ipynb    # Jupyter notebook for EDA & training
 │
-├── app.html # Frontend UI
-├── app.css # Styling
-├── app.js # Client-side logic
-├── server.py # Flask server
-├── util.py # Helper functions
-├── requirements.txt # Dependencies
-└── README.md # Project Documentation 
-├── artifacts/
-│ ├── banglore_home_prices_model.pickle # Trained ML model
-│ ├── columns.json # Model features
-│
-├── data/
-│ ├── bengaluru_house_prices.csv # Raw dataset
-│ ├── bhp.csv # Cleaned dataset
-│
-├── notebooks/
-│ └── banglore_home_prices_final.ipynb # Jupyter notebook for EDA & training
-│
-├── app.html # Frontend UI
-├── app.css # Styling
-├── app.js # Client-side logic
-├── server.py # Flask server
-├── util.py # Helper functions
-├── requirements.txt # Dependencies
-└── README.md # Project Documentation
+├── app.html                                # Frontend UI
+├── app.css                                 # Styling
+├── app.js                                  # Client-side logic
+├── server.py                               # Flask server
+├── util.py                                 # Helper functions
+├── requirements.txt                        # Dependencies
+└── README.md                               # Project Documentation
 
 
 

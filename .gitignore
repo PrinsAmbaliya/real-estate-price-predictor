@@ -8,8 +8,6 @@ __pycache__/
 venv/
 env/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
 
 # IDE/project settings
 .idea/

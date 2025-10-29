@@ -1,10 +1,10 @@
-# 🏠 real-estate-price-predictor
+# real-estate-price-predictor
 
 A **Machine Learning + Flask Web App** to predict house prices in Bangalore based on location, square footage, number of bedrooms (BHK), and bathrooms.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 - **Dataset**: Bengaluru House Price Dataset (`bengaluru_house_prices.csv`)
 - **Model**: Linear Regression (trained with data preprocessing and feature engineering)
 - **Backend**: Python Flask API (`server.py`, `util.py`)
@@ -13,7 +13,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```text
 ├── artifacts/
@@ -37,7 +37,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 ```   
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. User enters:
    - Area (sqft)
    - BHK
@@ -49,7 +49,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. Clone the repository:
    ```bash
@@ -70,7 +70,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ---
 
-## 📊 Model Training
+## Model Training
 - Preprocessing: Removed outliers, handled missing values, averaged total_sqft ranges
 - Feature Engineering: One-hot encoding for 241 Bangalore locations
 - Model: Linear Regression (or XGBoost with 87.41% accuracy in testing)
@@ -78,13 +78,13 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ---
 
-## 🖼 Screenshots
+## Screenshots
 
 <img width="1920" height="1080" alt="Screenshot (210)" src="https://github.com/user-attachments/assets/4d69a1ad-2b7f-46fd-8796-fc61c51ec8d0" />
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - Integrate advanced ML models (e.g., Random Forest, XGBoost, CatBoost)
 - Deploy live on Heroku/Render
 - Expand dataset to include other Indian cities
@@ -92,7 +92,7 @@ A **Machine Learning + Flask Web App** to predict house prices in Bangalore base
 
 ---
 
-## 👨‍💻 Author
+## Author
 Prins Ambaliya
 
 ->GitHub: PrinsAmbaliya
